@@ -3,6 +3,16 @@
     border-bottom: 1px solid #ccc;
 }
 
+.layout-cabecalho--home {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+
+    background-color: #fff;
+}
+
 .layout-cabecalho img {
     margin-top: 12px;
 }
@@ -13,6 +23,7 @@
 
 .layout-chamada {
     padding: 80px 0;
+    margin-top: 60px;
 
     background-color: #7ab55c;
 }

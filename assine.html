@@ -31,16 +31,88 @@
             <form action="#" method="post">
                 <h1 class="titulo-formulario">Sua assinatura do MyPilas</h1>
 
-                <div class="grupo-entrada">
-                    <label for="razao-social">Razão Social</label>
-                    <input type="text" id="razao-social" class="campo">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="grupo-entrada">
+                            <label for="razao-social">Razão Social</label>
+                            <input type="text" id="razao-social" class="campo" required>
+                        </div>
+                    </div>
                 </div>
 
-                <div class="grupo-entrada">
-                    <label for="cnpj">CNPJ</label>
-                    <input type="text" id="cnpj" class="campo">
+                <div class="row">
+                    <div class="col-sm-3">
+                        <div class="grupo-entrada">
+                            <label for="cnpj">CNPJ</label>
+                            <input type="text" id="cnpj" class="campo" required>
+                        </div>
+                    </div>
+                    <div class="col-sm-3">
+                        <div class="grupo-entrada">
+                            <label for="data-fundacao">Data da fundação</label>
+                            <input type="date" id="data-fundacao" class="campo" required>
+                        </div>
+                    </div>
                 </div>
 
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="grupo-entrada">
+                            <label for="responsavel">Responsável</label>
+                            <input type="text" id="responsavel" class="campo" required>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="grupo-entrada">
+                            <label for="email">E-mail</label>
+                            <input type="email" id="email" class="campo" required>
+                        </div>    
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-sm-3">
+                        <div class="grupo-entrada">
+                            <label for="estado">Estado</label>
+                            <select name="estado" id="estado" class="campo">
+                                <option value="">Selecione</option>
+                                <option value="MG">Minas Gerais</option>
+                                <option value="SP">São Paulo</option>
+                                <option value="CE">Ceará</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="col-sm-3">
+                        <div class="grupo-entrada">
+                            <label for="cidade">Cidade</label>
+                            <select name="cidade" id="cidade" class="campo">
+                                <option value="">Selecione</option>
+                                <option value="1">Uberlândia</option>
+                                <option value="2">São Paulo</option>
+                                <option value="3">Fortaleza</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-sm-3">
+                        <div class="grupo-entrada">
+                            <label for="senha">Senha</label>
+                            <input type="password" id="senha" class="campo" required>
+                        </div>
+                    </div>
+                    <div class="col-sm-3">
+                        <div class="grupo-entrada">
+                            <label for="confirmacao-senha">Confirme a senha</label>
+                            <input type="password" id="confirmacao-senha" class="campo" required>
+                        </div>
+                    </div>
+                </div>
+                
                 <div style="text-align: center; margin-top: 40px;">
                     <input type="submit" value="Assinar MyPilas" class="botao botao--principal">
                 </div>

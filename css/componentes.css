@@ -316,4 +316,11 @@
 .campo {
     display: block;
     width: 100%;
+    height: 2.8em;
+
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+
+    font-size: 1.4rem;
 }
